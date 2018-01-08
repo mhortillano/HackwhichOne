@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F27F90B200409770051F7E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F27F90A200409770051F7E7 /* AppDelegate.swift */; };
+		7F27F90D200409770051F7E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F27F90C200409770051F7E7 /* ViewController.swift */; };
+		7F27F910200409770051F7E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F27F90E200409770051F7E7 /* Main.storyboard */; };
+		7F27F912200409770051F7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F27F911200409770051F7E7 /* Assets.xcassets */; };
+		7F27F915200409770051F7E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F27F913200409770051F7E7 /* LaunchScreen.storyboard */; };
+		7F27F920200409770051F7E7 /* HackwhichOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F27F91F200409770051F7E7 /* HackwhichOneTests.swift */; };
+		7F27F92B200409780051F7E7 /* HackwhichOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F27F92A200409780051F7E7 /* HackwhichOneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F27F91C200409770051F7E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F27F8FF200409770051F7E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F27F906200409770051F7E7;
+			remoteInfo = HackwhichOne;
+		};
+		7F27F927200409780051F7E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F27F8FF200409770051F7E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F27F906200409770051F7E7;
+			remoteInfo = HackwhichOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F27F907200409770051F7E7 /* HackwhichOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwhichOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F27F90A200409770051F7E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F27F90C200409770051F7E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F27F90F200409770051F7E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F27F911200409770051F7E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F27F914200409770051F7E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F27F916200409770051F7E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F27F91B200409770051F7E7 /* HackwhichOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwhichOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F27F91F200409770051F7E7 /* HackwhichOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwhichOneTests.swift; sourceTree = "<group>"; };
+		7F27F921200409770051F7E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F27F926200409780051F7E7 /* HackwhichOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwhichOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F27F92A200409780051F7E7 /* HackwhichOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwhichOneUITests.swift; sourceTree = "<group>"; };
+		7F27F92C200409780051F7E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F27F904200409770051F7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F27F918200409770051F7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F27F923200409780051F7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F27F8FE200409770051F7E7 = {
+			isa = PBXGroup;
+			children = (
+				7F27F909200409770051F7E7 /* HackwhichOne */,
+				7F27F91E200409770051F7E7 /* HackwhichOneTests */,
+				7F27F929200409780051F7E7 /* HackwhichOneUITests */,
+				7F27F908200409770051F7E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F27F908200409770051F7E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F27F907200409770051F7E7 /* HackwhichOne.app */,
+				7F27F91B200409770051F7E7 /* HackwhichOneTests.xctest */,
+				7F27F926200409780051F7E7 /* HackwhichOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F27F909200409770051F7E7 /* HackwhichOne */ = {
+			isa = PBXGroup;
+			children = (
+				7F27F90A200409770051F7E7 /* AppDelegate.swift */,
+				7F27F90C200409770051F7E7 /* ViewController.swift */,
+				7F27F90E200409770051F7E7 /* Main.storyboard */,
+				7F27F911200409770051F7E7 /* Assets.xcassets */,
+				7F27F913200409770051F7E7 /* LaunchScreen.storyboard */,
+				7F27F916200409770051F7E7 /* Info.plist */,
+			);
+			path = HackwhichOne;
+			sourceTree = "<group>";
+		};
+		7F27F91E200409770051F7E7 /* HackwhichOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F27F91F200409770051F7E7 /* HackwhichOneTests.swift */,
+				7F27F921200409770051F7E7 /* Info.plist */,
+			);
+			path = HackwhichOneTests;
+			sourceTree = "<group>";
+		};
+		7F27F929200409780051F7E7 /* HackwhichOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F27F92A200409780051F7E7 /* HackwhichOneUITests.swift */,
+				7F27F92C200409780051F7E7 /* Info.plist */,
+			);
+			path = HackwhichOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F27F906200409770051F7E7 /* HackwhichOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F27F92F200409780051F7E7 /* Build configuration list for PBXNativeTarget "HackwhichOne" */;
+			buildPhases = (
+				7F27F903200409770051F7E7 /* Sources */,
+				7F27F904200409770051F7E7 /* Frameworks */,
+				7F27F905200409770051F7E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackwhichOne;
+			productName = HackwhichOne;
+			productReference = 7F27F907200409770051F7E7 /* HackwhichOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F27F91A200409770051F7E7 /* HackwhichOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F27F932200409780051F7E7 /* Build configuration list for PBXNativeTarget "HackwhichOneTests" */;
+			buildPhases = (
+				7F27F917200409770051F7E7 /* Sources */,
+				7F27F918200409770051F7E7 /* Frameworks */,
+				7F27F919200409770051F7E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F27F91D200409770051F7E7 /* PBXTargetDependency */,
+			);
+			name = HackwhichOneTests;
+			productName = HackwhichOneTests;
+			productReference = 7F27F91B200409770051F7E7 /* HackwhichOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F27F925200409780051F7E7 /* HackwhichOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F27F935200409780051F7E7 /* Build configuration list for PBXNativeTarget "HackwhichOneUITests" */;
+			buildPhases = (
+				7F27F922200409780051F7E7 /* Sources */,
+				7F27F923200409780051F7E7 /* Frameworks */,
+				7F27F924200409780051F7E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F27F928200409780051F7E7 /* PBXTargetDependency */,
+			);
+			name = HackwhichOneUITests;
+			productName = HackwhichOneUITests;
+			productReference = 7F27F926200409780051F7E7 /* HackwhichOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F27F8FF200409770051F7E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "CM Student";
+				TargetAttributes = {
+					7F27F906200409770051F7E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7F27F91A200409770051F7E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F27F906200409770051F7E7;
+					};
+					7F27F925200409780051F7E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F27F906200409770051F7E7;
+					};
+				};
+			};
+			buildConfigurationList = 7F27F902200409770051F7E7 /* Build configuration list for PBXProject "HackwhichOne" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F27F8FE200409770051F7E7;
+			productRefGroup = 7F27F908200409770051F7E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F27F906200409770051F7E7 /* HackwhichOne */,
+				7F27F91A200409770051F7E7 /* HackwhichOneTests */,
+				7F27F925200409780051F7E7 /* HackwhichOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F27F905200409770051F7E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F27F915200409770051F7E7 /* LaunchScreen.storyboard in Resources */,
+				7F27F912200409770051F7E7 /* Assets.xcassets in Resources */,
+				7F27F910200409770051F7E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F27F919200409770051F7E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F27F924200409780051F7E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F27F903200409770051F7E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F27F90D200409770051F7E7 /* ViewController.swift in Sources */,
+				7F27F90B200409770051F7E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F27F917200409770051F7E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F27F920200409770051F7E7 /* HackwhichOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F27F922200409780051F7E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F27F92B200409780051F7E7 /* HackwhichOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F27F91D200409770051F7E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F27F906200409770051F7E7 /* HackwhichOne */;
+			targetProxy = 7F27F91C200409770051F7E7 /* PBXContainerItemProxy */;
+		};
+		7F27F928200409780051F7E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F27F906200409770051F7E7 /* HackwhichOne */;
+			targetProxy = 7F27F927200409780051F7E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F27F90E200409770051F7E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F27F90F200409770051F7E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F27F913200409770051F7E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F27F914200409770051F7E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F27F92D200409780051F7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F27F92E200409780051F7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F27F930200409780051F7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackwhichOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwhichOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F27F931200409780051F7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackwhichOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwhichOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F27F933200409780051F7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackwhichOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwhichOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackwhichOne.app/HackwhichOne";
+			};
+			name = Debug;
+		};
+		7F27F934200409780051F7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackwhichOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwhichOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackwhichOne.app/HackwhichOne";
+			};
+			name = Release;
+		};
+		7F27F936200409780051F7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackwhichOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwhichOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackwhichOne;
+			};
+			name = Debug;
+		};
+		7F27F937200409780051F7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackwhichOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwhichOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackwhichOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F27F902200409770051F7E7 /* Build configuration list for PBXProject "HackwhichOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F27F92D200409780051F7E7 /* Debug */,
+				7F27F92E200409780051F7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F27F92F200409780051F7E7 /* Build configuration list for PBXNativeTarget "HackwhichOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F27F930200409780051F7E7 /* Debug */,
+				7F27F931200409780051F7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F27F932200409780051F7E7 /* Build configuration list for PBXNativeTarget "HackwhichOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F27F933200409780051F7E7 /* Debug */,
+				7F27F934200409780051F7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F27F935200409780051F7E7 /* Build configuration list for PBXNativeTarget "HackwhichOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F27F936200409780051F7E7 /* Debug */,
+				7F27F937200409780051F7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F27F8FF200409770051F7E7 /* Project object */;
+}
